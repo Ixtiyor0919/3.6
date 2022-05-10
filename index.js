@@ -19,7 +19,7 @@ var totalExpance = usdToUzs * (planedUsd + hotelUsd) + museumEuro * euroToUzs
 
 var userBudget = Number(prompt(`Alisher mablag'ingizni kiriting:`, 0));
 
-if(totalExpance < userBudget && userBudget < 10000000) {
+if(totalExpance < userBudget && userBudget <= 10000000) {
     elHeader.textContent = `Alisher mablag'ingiz yetarli Oq yo'l!`;
 }else if(userBudget > 10000000) {
     elHeader.textContent = `Bu mablag' bilan yillab sayohat qilishiz mumkin.`;
