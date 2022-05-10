@@ -1,0 +1,16 @@
+body {    
+    background-image: url(./images/travel-image.jpg);
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+}
+.text {
+    font-family: serif;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 2px;
+    background: linear-gradient(180deg,#13e431 0,#f1ee1d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
