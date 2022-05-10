@@ -10,10 +10,10 @@ var hotelUsd = 250;
 var museumEuro = 120; 
 
 alert(`Assalomu alaykum Alisher Travel xizmatimizga xush kelibsiz.`)
-alert(`Round-trip ticket: 500$.`);
-alert(`Hotel fee: 250$.`);
-alert(`For museums and entertainment venues: 120 E.`);
-alert(`Minimum cost: 8.317.500`)
+alert(`Borish-kelish samolyot bileti: 500$.`);
+alert(`Mehmonxona to’lovi: 250$.`);
+alert(`Muzey va ko’ngilochar joylar uchun: 120 E.`);
+alert(`Minimal mablag': 8.317.500`)
 
 var totalExpance = usdToUzs * (planedUsd + hotelUsd) + museumEuro * euroToUzs
 
