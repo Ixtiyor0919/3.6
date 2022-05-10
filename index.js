@@ -13,6 +13,7 @@ alert(`Assalomu alaykum Alisher Travel xizmatimizga xush kelibsiz.`)
 alert(`Round-trip ticket: 500$.`);
 alert(`Hotel fee: 250$.`);
 alert(`For museums and entertainment venues: 120 E.`);
+alert(`Minimum cost: 8.317.500`)
 
 var totalExpance = usdToUzs * (planedUsd + hotelUsd) + museumEuro * euroToUzs
 
