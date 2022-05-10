@@ -3,13 +3,24 @@ body {
     background-repeat: no-repeat;
     background-position: auto;
     background-size: cover;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .text {
     font-family: serif;
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 2px;
-    background: linear-gradient(180deg,#13e431 0,#f1ee1d 100%);
+    background: linear-gradient(180deg,#ffffff 0,#0bf3e5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.description {
+    font-family: serif;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 3px;
+    background: linear-gradient(180deg,#9E9E9E 0,#ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
