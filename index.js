@@ -1,5 +1,6 @@
 
 var elHeader = document.querySelector(`.heading`);
+var elMain = document.querySelector(`.description`);
 
 var usdToUzs = 9433.34;
 var euroToUzs = 10354.03;
@@ -20,11 +21,14 @@ var userBudget = Number(prompt(`Alisher mablag'ingizni kiriting:`, 0));
 if(totalExpance < userBudget && userBudget < 10000000) {
     elHeader.textContent = `Alisher mablag'ingiz yetarli Oq yo'l!`;
 }else if(userBudget > 10000000) {
-    elHeader.textContent = `Bu mablag' bilan yillab sayohat qilishiz mumkin`;
+    elHeader.textContent = `Bu mablag' bilan yillab sayohat qilishiz mumkin.`;
 }
 else {
     elHeader.textContent = `Alisher yana ozgina ishlash kerak ekan.`;
 }
+
+elMain.textContent = `Alisher ximatimizdan foydalanganingiz uchun xursandmiz sog' bo'lin.`
+
 
 //Minimum cost: 8.317.500
 
